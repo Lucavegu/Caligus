@@ -1,0 +1,29 @@
+# Sequence data and reference databases (not stored in the repository)
+*.fastq
+*.fastq.gz
+*.fa.gz
+
+# Objects and folders written by the scripts
+*.rds
+*.biom
+filtN/
+cutadapt/
+logs/
+toy_run/
+intermediate/
+diversity/
+abundance/
+phenotype/
+ml/
+sourcetracker/
+ASVs-*.tsv
+track_summary.tsv
+*_SILVA.fasta
+*_SILVA.fna
+
+# R and system files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.DS_Store
